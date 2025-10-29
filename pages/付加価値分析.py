@@ -124,7 +124,7 @@ if 'df_orders' in st.session_state:
         # データフレーム表示
         st.dataframe(
             df_display,
-            width='stretch',
+            use_container_width=True,
             height=400
         )
 
@@ -176,7 +176,7 @@ if 'df_orders' in st.session_state:
         # データフレーム表示
         st.dataframe(
             df_display,
-            width='stretch',
+            use_container_width=True,
             height=400
         )
 
