@@ -155,7 +155,7 @@ class ValueAddedDataManager(DatabaseManager):
         """オーダー単位のデータを取得（v2: valueadded_note.mdの方針に基づく改訂版）"""
         # SQLファイルのパスを決定
         current_dir = os.path.dirname(os.path.abspath(__file__))
-        sql_file_path = os.path.join(os.path.dirname(current_dir), 'sql', 'value_added_v2.sql')
+        sql_file_path = os.path.join(os.path.dirname(current_dir), 'sql', 'value_added.sql')
 
         try:
             # SQLファイルを読み込み
